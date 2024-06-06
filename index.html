@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Etch-a-Sketch</h1>
+      </header>
+      <main>
+        <div class="settings">
+          <input type="color" id="color-picker" />
+          <button id="color-mode">Color Mode</button>
+          <button id="rainbow-mode">Rainbow Mode</button>
+          <button id="erase-mode">Eraser</button>
+          <button id="clear">Clear</button>
+          <div id="slider-container">
+            <p><span id="slider-text"></span></p>
+            <input type="range" min="1" max="64" value="16" id="slider" />
+          </div>
+        </div>
+
+        <div id="canvas"></div>
+      </main>
+    </div>
+    <footer>
+      <div>
+        <p>Copyright &copy; 2024 jntlmb</p>
+      </div>
+    </footer>
+  </body>
+</html>
